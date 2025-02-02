@@ -49,7 +49,7 @@ static volatile int contador = 0;  // Variável para armazenar o número (0 a 9)
 static volatile uint32_t last_time_A = 0;  // Armazena o tempo do último evento para o botão A
 static volatile uint32_t last_time_B = 0;  // Armazena o tempo do último evento para o botão B
 volatile uint32_t last_interrupt_time = 0;
-float r = 0.0, g = 0.1, b = 0.001; // Inicialização das variáveis RGB
+float r = 0.0, g = 1.0, b = 0.001; // Inicialização das variáveis RGB
 // Declaração da função (antes de usá-la)
 
 
