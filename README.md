@@ -1,64 +1,36 @@
-# Geração de Animações em Matriz de LEDs 5x5
+# Controle de Matriz de LEDs com Botões
 
-## Descrição
-Este projeto tem como objetivo a geração de animações em uma matriz de LEDs 5x5 utilizando o Raspberry Pi Pico W e um teclado matricial 4x4. 
+## Descrição do Projeto
+Este projeto implementa um sistema de controle de uma matriz de LEDs utilizando um LED RGB, botões e LEDs WS2812 para exibição de números e efeitos visuais.
 
-## Requisitos de Funcionamento
-1. **Teclado Matricial**:
-   - **Teclas 0 a 9**: Acionam animações diferentes na matriz de LEDs.
-   - **Tecla A**: Desliga todos os LEDs.
-   - **Tecla B**: Liga todos os LEDs na cor azul com 100% de luminosidade.
-   - **Tecla C**: Liga todos os LEDs na cor vermelha com 80% de luminosidade.
-   - **Tecla D**: Liga todos os LEDs na cor verde com 50% de luminosidade.
-   - **Tecla #**: Liga todos os LEDs na cor branca com 20% de luminosidade.
+## Funcionalidades
+1. O LED vermelho do LED RGB pisca continuamente 5 vezes por segundo.
+2. O botão A incrementa o número exibido na matriz de LEDs a cada pressão.
+3. O botão B decrementa o número exibido na matriz de LEDs a cada pressão.
+4. Os LEDs WS2812 criam efeitos visuais representando números de 0 a 9.
 
-2. **Animações**:
-   - **Tecla 1**: Executa animação "Gil".
-   - **Tecla 2**: Executa animação "Arthur".
-   - **Tecla 3**: Executa animação "Pablo".
-   - **Tecla 4**: Executa animação "André".
-   - **Tecla 5**: Executa animação "Daniel Alencar".
-   - **Tecla 6**: Executa animação "Julio".
-   - **Tecla 7**: Executa animação "Daniel Porto".
-   - **Tecla 8**: Executa animação "Isaque".
-   - **Tecla 9**: Ativa o buzzer e executa animação "xadrez".
-   - **Tecla * (opcional)**: Coloca o Raspberry Pi Pico W no modo de gravação via software (reboot).
+## Autor
+**Gilmaiane Porto Silva**
+
+## Tecnologias Utilizadas
+- Microcontrolador compatível com WS2812
+- LED RGB
+- Botões físicos
+- Programação em C/C++
 
 ## Como Executar
-1. Clone o repositório:
+1. Clone este repositório:
    ```bash
-   git clone https://github.com/Gilmaiane23/matrix_keypad.git
+   git clone https://github.com/Gilmaiane23/Interrupcao.git
    ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd matrix_keypad
-   ```
-3. Abra o projeto no VS Code:
-  
-4. Compile e simule o projeto usando o Wokwi, ou carregue o código diretamente no Raspberry Pi Pico W.
+2. Compile e carregue o código no microcontrolador.
+3. Pressione os botões A e B para alterar os números exibidos.
 
-5. Conecte o teclado matricial e a matriz de LEDs RGB ao Raspberry Pi Pico W conforme o esquema de ligação indicado no projeto.
-
-6. Execute o código e interaja com as animações através do teclado matricial.
-
-## Testes
-Cada desenvolvedor foi responsável por criar testes básicos para garantir que os recursos (como animações, controles de LEDs e buzzer) estejam funcionando corretamente.
-
-
-## Vídeo de Demonstração
+##Vídeo de Demonstração
 ```bash
-   Link: https://www.youtube.com/watch?v=I6U1m52rovY
+   
    ```
-## Colaboradores
-- **Líder**: [Gilmaiane Porto]
-- **Desenvolvedores**: [Arthur de Oliveira Moreira]
-                       [André da Silva Caldas Chagas]
-                       [Daniel Alencar Penha Carvalho]
-                       [Daniel Porto Braz]
-                       [Isaque Coelho de Jesus]
-                       [Júlio Henrique Lima de Oliveira Sousa]
-                       [Pablo Henrique Dourado Souza]
 
 ## Licença
-Este projeto é licenciado sob a licença MIT – consulte o arquivo LICENSE para mais detalhes.
+Este projeto é de código aberto. Sinta-se à vontade para modificar e contribuir!
 
