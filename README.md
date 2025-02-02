@@ -28,7 +28,7 @@ Este projeto implementa um sistema de controle de uma matriz de LEDs utilizando 
 
 ## Vídeo de Demonstração
 ```bash
-   https://youtu.be/c45LTFAeSU0
+   https://youtu.be/qd4rL-21x3A
    ```
 
 ## Licença
